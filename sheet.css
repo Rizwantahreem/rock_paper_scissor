@@ -1,0 +1,55 @@
+*, body, #mains{
+    box-sizing: border-box;
+    /* display: block; */
+    background-color: lavenderblush;
+}
+
+#container{
+    margin: 1pc 0 1pc 2pc;
+    /* background-color: lavenderblush; */
+}
+#pics{
+    height: 100px;
+    width: 100px;
+    margin: 0;
+}
+
+th{
+    text-align: center;
+}
+
+#heads{
+    /* border: 1px blueviolet solid; */
+    /* margin: 3px; */
+    /* padding: 3px; */
+    border-top: none;
+    text-align: center;
+}
+a::before{
+    border: 1px blue solid;
+}
+a::after{
+    border: 1px purple solid;
+}
+
+#dynamic{
+    
+    border: 5pt rgb(44, 190, 190) solid;
+    background-color: lavenderblush;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1pc;
+    padding: 2pc ;
+    height: 200px;
+    width: 200px;
+}
+
+#table{
+    color: rgb(101, 101, 196);
+    background-color: lavenderblush;
+}
+
+h2{
+    text-align: center;
+}
